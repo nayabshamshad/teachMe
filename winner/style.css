@@ -1,0 +1,166 @@
+
+.form-select{
+        width: 100%;
+        padding: 7px 65px 10px 10px;
+        border-radius: 8px;
+      }
+      .ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: red;
+        border-radius: 8px;
+      }
+      .li{
+        float: left;
+      }
+      .li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      .vertical_line{
+        background: white;
+        width: 2px;
+        margin: 0.3% 0;
+    }
+    .blue-li_section{
+    background-color: #0061a3;
+    float: right;
+    padding: 0 3%;
+    }
+    .banner_card_one , .banner_card_two , .banner_card_three{
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+    }
+    .banner_card_one_span_three , .banner_card_two_span_three ,  .banner_card_three_span_three{
+    text-decoration: underline;
+    color: #0061a3;
+    cursor: pointer;
+    font-weight: 500;
+    }
+    .upcoming_lottery{
+        margin-bottom: 8rem;
+    }
+    .upcoming_lottery_h1{
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+    }
+    .lottery_card_one{
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+        overflow: hidden;
+    }
+    .upcoming_lotteries_online{
+        background-color: #f30000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    .upcoming_lotteries_online > span{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        color: white;
+    }
+    .upcoming_lotteries_online_card{
+        min-width: 208px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    margin: 1rem 0;
+    }
+   .upcoming_lotteries_online_btn{
+    display: flex;
+    justify-content: end;
+   }
+   .upcoming_lotteries_online_btn > button {
+    border: none;
+    text-decoration: underline;
+    color: #0061A3;
+    background-color: white;
+   }
+   .biggest_lottery_winner_h1 > span{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white
+   }
+   .biggest_lottery_winner_h1{
+   background-color: #f30000;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 16px;
+   border-radius: 8px;
+}
+.biggest_lottery_winner_card{
+    padding: 16px;
+    margin: 32px 0;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+.biggest_lottery_winner_span_one > span{
+  font-size: 16px;
+  font-weight: 500;
+}
+.biggest_lottery_winner_span_two{
+  margin-right: 265px;
+}
+.biggest_lottery_winner_span_two > span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.biggest_lottery_winner_btn{
+  display: flex;
+  justify-content: center;
+}
+.biggest_lottery_winner_btn > button {
+  color: #0061a3;
+    background-color: white;
+    text-decoration: underline;
+    border: none;
+    font-weight: 600;
+}
+.biggest_lottery_winner_play_btn{
+  background-color: #F7D300;
+  margin-top: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.biggest_lottery_winner_play_btn > button {
+  color: black;
+    background-color: #F7D300;
+    padding: 16px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.total_prize_span{
+  font-size: 18px;
+  font-weight: 400;
+}
+.total_amount{
+  font-size: 26px;
+  font-weight: 700;
+  color: #13902a;
+}
+.biggest_lottery_winner_card{
+padding: 16px;
+    margin: 32px 0;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+.winner_span_one{
+  font-size: 14px;
+    font-weight: 400;
+}

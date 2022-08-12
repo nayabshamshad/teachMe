@@ -1,0 +1,181 @@
+.tabs {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: black;
+}
+
+.nav-bar {
+    position: absolute;
+    left: 33px;
+    top: 33px;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 36px;
+    background-color: #FF910E;
+    border-radius: 5px;
+    margin-left: -20px;
+}
+
+.logo1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 53px;
+    height: 53px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 13px;
+    fill: orange;
+}
+
+.logo1:hover {
+    background-color: #f8932D;
+}
+
+.svgicon {
+    fill: #807D86;
+}
+
+.svgicon:hover {
+    fill: white !important;
+}
+
+header .nav-pills>ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+header .nav-pills>ul>li {
+    display: inline;
+    padding-left: 25px;
+    position: relative;
+}
+
+.vehicles {
+    top: 128px;
+    font-size: 10px;
+    position: absolute;
+    border-radius: none;
+    color: #807D86;
+}
+
+.vehicles:hover {
+    color: black;
+}
+
+#pills-tab {
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.nav-link {
+    margin: 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: white !important;
+}
+
+.nav-pills .nav-link,
+.nav-pills .show>.nav-link {
+    background-color: white !important;
+}
+
+#pills-home>img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+
+#locator {
+    padding-top: 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 999;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.carNumber {
+    background-color: #E6F9FF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile {
+    margin: 5px auto;
+    border-top: 2px dashed #7D7C7E;
+    border-bottom: 2px dashed #7D7C7E;
+}
+.list{
+    background-color: #d9d9d9;
+    height: 50px;
+    width: 50px;
+    left: 145px;
+    margin: 14px;
+    top: 662px;
+    border-radius: 30px;
+}
+.list #id{
+    top: 0 !important;
+    left: 0 !important;
+}
+.list img{
+    top: 10px;
+    left: 10px;
+    position: relative;
+}
+.list1{
+    margin-right: 18px;
+}
+.list2{
+    background-color: #d9d9d9;
+}
+.list2 p{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    position: relative;
+    top: 18px;
+}
+.text1{
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+}
+.col-md-3 img{
+    float: right;
+    position: relative;
+}
+@media (min-width:375px){
+    .logo1 {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 42px;
+        height: 42px;
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 12px;
+        fill: orange;
+    }
+    .vehicles {
+        top: 118px;
+    }
+    .list2 p{
+        width: 305px;
+    }
+}
+@media (max-width:375px){
+    
+}

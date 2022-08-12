@@ -1,0 +1,336 @@
+body{
+    color: #585151 !important;
+}
+.row{
+    margin: 0% !important;
+}
+hr{
+    margin-bottom: 0 !important;
+}
+input:focus {
+    outline: none;
+    }
+*{
+        padding: 0%;
+        margin: 0%;
+    }
+.website{
+    background-color: #f8932D;
+}
+.col-md-2{
+    min-height: 101vh;
+    background-color: #ecf5f7;
+    padding: 0;
+}
+.navbar{
+ background-color: #f8932D;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 40px;
+    margin-top: -10px;
+}
+.name h5{
+    margin-top: -52px;
+    margin-left: 60px;
+}
+.usermenu{
+    padding-left: 8px;
+    margin-top: 30px;
+}
+.userName{
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    outline: none;
+    position: relative;
+    color:orange;
+    margin-top: -5px;
+    margin-left: 55px;
+}
+.dropdown-toggle{
+    margin-top: -51px;
+    margin-left: 147px;
+    background-color:none;
+    outline: none;
+}
+ .button{
+    background-color:none;
+    list-style-type:none;
+  border: none;
+  color:black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.pagination{
+    margin-left: 195px;
+}
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #3c3737;
+    border-radius: 15px;
+    margin: 2px;
+  }
+  
+  .pagination a.active {
+    background-color:orange;
+    color:black;
+  }
+  .pagination a:hover:not(.active) 
+  {
+    background-color:orange;
+}
+.sidebar-container{
+    margin-left: 10px;
+}
+input.nosubmit {
+    border: none;
+    margin-left: 105px;
+  padding: 9px 4px 9px 40px;
+  background-color: #ecf5f7;
+}
+.nosubmit{
+    background-color: #ECF5F7;
+    border-radius: 8px;
+}
+    .thead{
+        background-color:#706262;;
+        color: #ecf5f7;
+        }
+        .thead .trow{
+            border-radius: 20px;
+        }
+        .thead tr th {
+        border-right-style: solid;
+        border-right-color:#ecf5f7;
+        text-align: center;
+          }
+          .tbody tr td{
+            text-align: center;
+          }
+          .tbody .btn-green{
+            background-color: #559d2e!important;
+        border-color: #559d2e!important;
+        color: white;
+        padding: 0px;
+        border-radius: 8px;
+        padding: 0px;
+        width: 100px;
+        }
+        .tbody .btn-grey{
+        background-color:grey!important;
+        border-color:grey!important;
+        color:white;
+        padding: 0px;
+        border-radius: 8px;
+        width: 100px;
+        }
+        .tbody .btn-yellow{
+            background-color: yellow!important;
+            border-color:yellow!important;
+            color:black;
+            padding: 0px;
+        border-radius: 8px;
+            width: 100px;
+        }
+        .menu{
+            margin-left:16px;
+            margin-top: 25px;
+            cursor: pointer;
+         border-radius: 5px;
+         font-weight: bold;
+        }
+        .menulist{
+            margin-left: 8px;
+            line-height: 4;
+            font-family: 'FontAwesome';
+           }
+           .menu > div:hover {
+            background-color: white;
+            color: #f8932D;
+            border-right-style: solid;
+            border-right-color:orange;
+            border-top-left-radius:24px;
+            border-bottom-left-radius: 24px;
+         
+        }
+        .menu > div:hover .navlinkicon{
+            background-color: #f8932D;
+            fill:white;
+        }
+.logout{
+    margin-left: 80px;
+}
+.navlinkicon{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-left: -20px;
+    margin-top: 12px;
+    fill:orange;
+}
+.navlink1{
+    display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background-color: orange;
+            border-radius: 9px;
+            margin-left: -14px;
+            fill: white;
+            width: 30px;
+            height: 26px;
+}
+.navlinkicon:hover{
+    background-color: #f8932D;
+}
+.svgicon:hover{
+    fill:white;
+}
+.move{
+    margin-left: 126px;
+    margin-top: 19px;
+}
+.move1{
+    margin-left: 45px;
+    margin-top: 17px;
+}
+.move2{
+    margin-left: 34px;
+    margin-top: 20px;
+}
+.move3{
+    margin-left: 102px;
+    margin-top: 19px;
+}
+.move4{
+    margin-left: 20px;
+}
+.move5{
+    margin-left: 22px;
+    margin-top: 19px;
+}
+.col-md-4 .navlink{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-radius: 9px;
+    margin-left: -14px;
+    fill: white;
+    width: 30px;
+    height: 26px;
+}
+.col-sm-4{
+    right: 65px;
+    top: 36px;
+}
+h2{
+    margin-left: 30px;
+    margin-top: -36px;
+}
+.adduser{
+    background-color: #f8932d!important;
+    color: white;
+    width: 137px;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    margin-left: 302px;
+  }
+  .adduser:hover{
+    color: white;
+}
+.uperbar{
+    margin: 35px;
+    float: left;
+        width: 93%;
+}
+.col-md-4 {
+    width: 40.333333%;
+}
+.col-md-3{
+    padding-right: 0% !important;
+}
+.svg1
+{
+    width: 32px;
+    text-align: left;
+}
+.table-striped>tbody>tr:nth-child(even)>td
+{
+    background-color:lightyellow;
+}
+.table-striped>tbody>tr:nth-child(odd)>td{
+    background-color: white;
+}
+.table-striped{
+    margin-top: 70px;
+}
+.modal-title{
+    text-align: center;
+}
+#modalform{
+    background-color: #ecf5f7;
+    border-color: #ecf5f7;;
+}
+.svgicon1{
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 180px;
+}
+/* #User{
+    color: black;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-bottom-color: orange;
+} */
+.mymodal{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    display: table;
+}
+/* .mymodal > .modal-content{
+display: table-cell;
+} */
+.modal-header{
+    justify-content: center !important;
+    border-bottom-color: orange;
+}
+h5{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+        align-content: center !important;
+        margin-top: 30px;
+        border-bottom-color: orange;
+}
+.pop{
+    color: orange;
+    margin-right: 10px;
+}
+.tbl{
+    margin-right: 15px;
+}
+.modal-footer{
+    border-top-color: orange;
+    margin-left: 60px;
+    margin-right: 60px;
+}

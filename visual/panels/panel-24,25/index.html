@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="5; url:'http://3.65.218.99/machineList'">
+    <meta http-equiv="Refresh" content="5; url:'http://3.65.218.99/categoryList'">
+    <title>Canteen Management</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="website">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="./imgs/Frigg_Logo_F_Tekst_Horisontal_hvit.d676ba26.png" alt="frig-logo">
+                </a>
+        </nav>
+    </div>
+    <div class="row">
+        <!-- sidebar -->
+        <div class="col-md-2">
+            <div class="sidebar-container">
+                <div class="usermenu">
+                    <div class="imagewrapper">
+                        <img src="./imgs/burger.26de9548.png" alt="burger">
+                    </div>
+                    <div class="name">
+                        <h5>Alexander Anders</h5>
+                    </div>
+                 <div>
+                 <button class="userName">
+                     <strong>Super Admin</strong>
+                     <span class="move4">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="10.706" height="8.03" viewBox="0 0 10.706 8.03">
+                        <path id="bxs-down-arrow" d="M7.916,15.3a.534.534,0,0,0,.88,0L13.614,8.34a.535.535,0,0,0-.44-.84H3.538a.536.536,0,0,0-.44.84Z" transform="translate(-3.004 -7.5)"/>
+                      </svg>  </span>
+                 </button> 
+                 <div class="userDropDown" style="display: block;">
+                    <span class="logout">Log Out</span>
+                </div>                 
+                </div>
+                </div>
+                <hr>
+               <div class="menu">
+                <div class="dashboard">
+                    <span class="navlinkicon">
+                   <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 19.001 19.001">
+                        <path id="view-dashboard" d="M13.556,3V9.334H22V3M13.556,22H22V11.445H13.556M3,22h8.445V15.667H3m0-2.111h8.445V3H3Z" transform="translate(-3 -3)"/>
+                      </svg> </span>
+                    <span class="menulist">DashBoard</span>
+                </div>
+                <div class="usermng d-flex">
+                    <span class="navlinkicon">
+                        <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 15.983 21.199">
+                            <path id="Path_10757" data-name="Path 10757" d="M116.251,18.326a5.189,5.189,0,1,1-5.189,5.189A5.189,5.189,0,0,1,116.251,18.326Zm0,21.2a10.779,10.779,0,0,1-7.553-3.084,1.524,1.524,0,0,1-.4-1.456l.3-1.212a4.628,4.628,0,0,1,4.517-3.568h6.278a4.627,4.627,0,0,1,4.517,3.568l.288,1.249a1.526,1.526,0,0,1-.409,1.438A10.779,10.779,0,0,1,116.251,39.525Z" transform="translate(-108.252 -18.326)"/>
+                          </svg>                              
+                        </span>                     
+                    <span class="menulist">User Management</span>
+            
+                    <span class="move1">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="10.706" height="8.03" viewBox="0 0 10.706 8.03">
+                        <path id="bxs-down-arrow" d="M7.916,15.3a.534.534,0,0,0,.88,0L13.614,8.34a.535.535,0,0,0-.44-.84H3.538a.536.536,0,0,0-.44.84Z" transform="translate(-3.004 -7.5)" fill="#f8932d"/>
+                      </svg> </span>             
+                </div>
+                <div class="Category">
+                    <span class="navlinkicon">
+                    <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.625 18.632">
+                        <g id="Group_669" data-name="Group 669" transform="translate(-352.863 -118.75)">
+                          <path id="Path_10845" data-name="Path 10845" d="M104.054,33.559a.412.412,0,0,0-.41.414v7.457a.412.412,0,0,0,.41.414h7.4a.412.412,0,0,0,.41-.414V33.973a.412.412,0,0,0-.41-.414Zm.41.827h6.577v6.63h-6.577Z" transform="translate(249.469 85.441)"fill-rule="evenodd"/>
+                          <path id="Path_10845_-_Outline" data-name="Path 10845 - Outline" d="M104.054,33.309h7.4a.663.663,0,0,1,.66.664v7.457a.663.663,0,0,1-.66.664h-7.4a.663.663,0,0,1-.66-.664V33.973A.663.663,0,0,1,104.054,33.309Zm7.4,8.284a.162.162,0,0,0,.16-.164V33.973a.162.162,0,0,0-.16-.164h-7.4a.162.162,0,0,0-.16.164v7.457a.162.162,0,0,0,.16.164Zm-7.237-7.457h7.077v7.13h-7.077Zm6.577.5h-6.077v6.13h6.077Z" transform="translate(249.469 85.441)"/>
+                          <path id="Path_10846" data-name="Path 10846" d="M373.358,33.555a.412.412,0,0,0-.41.414v7.457a.412.412,0,0,0,.41.414h7.4a.412.412,0,0,0,.41-.414V33.969a.412.412,0,0,0-.41-.414h-7.4Zm.41.827h6.577v6.63h-6.577Z" transform="translate(-9.929 85.445)"fill-rule="evenodd"/>
+                          <path id="Path_10846_-_Outline" data-name="Path 10846 - Outline" d="M373.358,33.3h7.4a.663.663,0,0,1,.66.664v7.457a.663.663,0,0,1-.66.664h-7.4a.663.663,0,0,1-.66-.664V33.969a.665.665,0,0,1,.41-.614v-.049Zm7.4,8.284a.162.162,0,0,0,.16-.164V33.969a.162.162,0,0,0-.161-.164h-7.4a.162.162,0,0,0-.16.164v7.457a.162.162,0,0,0,.16.164Zm-7.237-7.457H380.6v7.13h-7.077Zm6.577.5h-6.077v6.13H380.1Z" transform="translate(-9.929 85.445)"/>
+                          <path id="Path_10847" data-name="Path 10847" d="M104.054,301.25a.412.412,0,0,0-.41.414v7.457a.412.412,0,0,0,.41.414h7.4a.412.412,0,0,0,.41-.414v-7.457a.412.412,0,0,0-.41-.414Zm.41.827h6.577v6.63h-6.577Z" transform="translate(249.469 -172.403)"fill-rule="evenodd"/>
+                          <path id="Path_10847_-_Outline" data-name="Path 10847 - Outline" d="M104.054,301h7.4a.663.663,0,0,1,.66.664v7.457a.663.663,0,0,1-.66.664h-7.4a.663.663,0,0,1-.66-.663v-7.457A.663.663,0,0,1,104.054,301Zm7.4,8.284a.162.162,0,0,0,.16-.164v-7.457a.162.162,0,0,0-.16-.164h-7.4a.162.162,0,0,0-.16.164v7.457a.162.162,0,0,0,.16.164Zm-7.237-7.457h7.077v7.13h-7.077Zm6.577.5h-6.077v6.13h6.077Z" transform="translate(249.469 -172.403)"/>
+                          <path id="Path_10848" data-name="Path 10848" d="M373.358,301.25a.412.412,0,0,0-.41.414v7.457a.412.412,0,0,0,.41.414h7.4a.412.412,0,0,0,.41-.414v-7.457a.412.412,0,0,0-.41-.414Zm.41.827h6.577v6.63h-6.577Z" transform="translate(-9.929 -172.403)" fill-rule="evenodd"/>
+                          <path id="Path_10848_-_Outline" data-name="Path 10848 - Outline" d="M373.358,301h7.4a.663.663,0,0,1,.66.664v7.457a.663.663,0,0,1-.66.664h-7.4a.663.663,0,0,1-.66-.664v-7.457A.663.663,0,0,1,373.358,301Zm7.4,8.284a.162.162,0,0,0,.16-.164v-7.457a.162.162,0,0,0-.16-.164h-7.4a.162.162,0,0,0-.16.164v7.457a.162.162,0,0,0,.16.164Zm-7.237-7.457H380.6v7.13h-7.077Zm6.577.5h-6.077v6.13H380.1Z" transform="translate(-9.929 -172.403)"/>
+                        </g>
+                      </svg>    </span>                      
+                    <span class="menulist">Category</span>
+                </div>
+                <div class="Product d-flex">
+                    <span class="navlinkicon">
+                    <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14.95 18.687">
+                        <path id="Path_10904" data-name="Path 10904" d="M90.944-518.495a1.869,1.869,0,0,1,1.869,1.869v6.54a1.869,1.869,0,0,1-1.869,1.869H90.01v7.475a.934.934,0,0,1-.934.934h-.934a.934.934,0,0,1-.934-.934v-7.475h-.934a1.869,1.869,0,0,1-1.869-1.869v-6.54a1.869,1.869,0,0,1,1.869-1.869h4.672m0,8.409v-6.54H90.01v4.2a.467.467,0,0,1-.467.467.467.467,0,0,1-.467-.467v-4.2h-.934v4.2a.467.467,0,0,1-.467.467.467.467,0,0,1-.467-.467v-4.2h-.934v6.54h4.672m7.9-8.409a.514.514,0,0,1,.514.514v17.239a.934.934,0,0,1-.934.934h-.934a.934.934,0,0,1-.934-.934v-3.737h-.934a1.869,1.869,0,0,1-1.869-1.869V-513.4a5.092,5.092,0,0,1,5.092-5.092m-3.223,12.146h1.869v-9.979a3.233,3.233,0,0,0-1.869,2.924v7.054" transform="translate(-84.404 518.495)"/>
+                      </svg>  </span>                        
+                    <span class="menulist">Product Management</span>
+                    <span class="move5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10.706" height="8.03" viewBox="0 0 10.706 8.03">
+                        <path id="bxs-down-arrow" d="M7.916,15.3a.534.534,0,0,0,.88,0L13.614,8.34a.535.535,0,0,0-.44-.84H3.538a.536.536,0,0,0-.44.84Z" transform="translate(-3.004 -7.5)" fill="#f8932d"/>
+                      </svg> </span>
+                </div>
+                <div class="Order d-flex justify-space-around align-center">
+                    <span class="navlinkicon">
+                    <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 23.815 16.567">
+                        <path id="cube-send" d="M16.567,4,9.319,8.183v8.2l7.248,4.183,7.248-4.183v-8.2M16.567,6.392,20.5,8.659l-3.935,2.268L12.643,8.659M0,7.106V9.177H7.248V7.106m4.142,3.22,4.142,2.392v4.856L11.39,15.193m10.354-4.867v4.867L17.6,17.575V12.718M2.071,11.248v2.071H7.248V11.248M4.142,15.39v2.071H7.248V15.39" transform="translate(0 -4)"/>
+                      </svg></span>                      
+                    <span class="menulist">Order Management</span>
+                    <span class="move2"><svg xmlns="http://www.w3.org/2000/svg" width="10.706" height="8.03" viewBox="0 0 10.706 8.03">
+                        <path id="bxs-down-arrow" d="M7.916,15.3a.534.534,0,0,0,.88,0L13.614,8.34a.535.535,0,0,0-.44-.84H3.538a.536.536,0,0,0-.44.84Z" transform="translate(-3.004 -7.5)" fill="#f8932d"/>
+                      </svg> </span>
+                </div>
+                <div class="Builder">
+                    <span class="navlinkicon">
+                    <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 17.948 21.336">
+                        <g id="Group_667" data-name="Group 667" transform="translate(-107 -846)">
+                          <g id="Group_666" data-name="Group 666" transform="translate(110.781 851.401)">
+                            <path id="Path_10837" data-name="Path 10837" d="M355.133,280h-4.745a.379.379,0,0,0-.4.4v4.745a.379.379,0,0,0,.4.4h4.745a.379.379,0,0,0,.4-.4V280.4A.379.379,0,0,0,355.133,280Z" transform="translate(-345.401 -275.565)" fill="#f8932d"/>
+                            <path id="Path_10838" data-name="Path 10838" d="M214.1,145.8h9.4c.208,0,.364-.1.364-.259V144c0-.161-.139-.259-.364-.259h-9.4c-.208,0-.364.1-.364.259v1.544c0,.161.156.259.364.259Z" transform="translate(-213.735 -143.736)"/>
+                            <path id="Path_10839" data-name="Path 10839" d="M214,285.541h1.552c.149,0,.261-.152.261-.4V280.4c0-.247-.1-.4-.261-.4H214c-.149,0-.261.152-.261.4v4.745C213.739,285.37,213.851,285.541,214,285.541Z" transform="translate(-213.739 -275.564)"/>
+                          </g>
+                          <path id="Path_10840" data-name="Path 10840" d="M133.835,46.662H117.411a.839.839,0,0,0-.753.9V67.1a.839.839,0,0,0,.753.9h16.442a.839.839,0,0,0,.753-.9V47.557a.865.865,0,0,0-.771-.9ZM133.1,66.207H118.146V48.431h14.936V66.207Z" transform="translate(-9.658 799.338)"/>
+                        </g>
+                      </svg></span>                      
+                    <span class="menulist">Page builder</span>
+                </div>
+                <div class="ban">
+                    <span class="navlinkicon">
+                    <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12.719 20.349">
+                        <path id="noun-banner-4638743" d="M187.711,0q0,10.175,0,20.349l-6.359-4.508-6.359,4.508V17.271q3.174-2.286,6.362-4.553l3.823,2.718-.01-12.892H177.52c.014,3.781.01,7.561.01,11.342l-2.536,1.821V0Z" transform="translate(-174.993)" fill-rule="evenodd"/>
+                      </svg></span>                     
+                    <span class="menulist">Banner</span>
+                </div>
+                <div class="report d-flex justify-space-around align-center">
+                    <span class="navlinkicon">
+                    <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 17.948 21.336">
+                        <g id="Group_667" data-name="Group 667" transform="translate(-107 -846)">
+                          <g id="Group_666" data-name="Group 666" transform="translate(110.781 851.401)">
+                            <path id="Path_10837" data-name="Path 10837" d="M355.133,280h-4.745a.379.379,0,0,0-.4.4v4.745a.379.379,0,0,0,.4.4h4.745a.379.379,0,0,0,.4-.4V280.4A.379.379,0,0,0,355.133,280Z" transform="translate(-345.401 -275.565)" fill="#f8932d"/>
+                            <path id="Path_10838" data-name="Path 10838" d="M214.1,145.8h9.4c.208,0,.364-.1.364-.259V144c0-.161-.139-.259-.364-.259h-9.4c-.208,0-.364.1-.364.259v1.544c0,.161.156.259.364.259Z" transform="translate(-213.735 -143.736)"/>
+                            <path id="Path_10839" data-name="Path 10839" d="M214,285.541h1.552c.149,0,.261-.152.261-.4V280.4c0-.247-.1-.4-.261-.4H214c-.149,0-.261.152-.261.4v4.745C213.739,285.37,213.851,285.541,214,285.541Z" transform="translate(-213.739 -275.564)"/>
+                          </g>
+                          <path id="Path_10840" data-name="Path 10840" d="M133.835,46.662H117.411a.839.839,0,0,0-.753.9V67.1a.839.839,0,0,0,.753.9h16.442a.839.839,0,0,0,.753-.9V47.557a.865.865,0,0,0-.771-.9ZM133.1,66.207H118.146V48.431h14.936V66.207Z" transform="translate(-9.658 799.338)"/>
+                        </g>
+                      </svg></span>                
+                    <span class="menulist">Report</span>
+                   <span class="move"> <svg xmlns="http://www.w3.org/2000/svg" width="10.706" height="8.03" viewBox="0 0 10.706 8.03">
+                        <path id="bxs-down-arrow" d="M7.916,15.3a.534.534,0,0,0,.88,0L13.614,8.34a.535.535,0,0,0-.44-.84H3.538a.536.536,0,0,0-.44.84Z" transform="translate(-3.004 -7.5)" fill="#f8932d"/>
+                      </svg>    </span>
+                </div>
+                <div class="Promotion d-flex justify-space-around align-center">
+                    <span class="navlinkicon">
+                    <svg class="svgicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <g id="Group_668" data-name="Group 668" transform="translate(-956.434 -551.436)">
+                          <path id="Path_10841" data-name="Path 10841" d="M103.933,29.557a3.379,3.379,0,0,0-4.379,4.378,3.379,3.379,0,0,0,0,6.192,3.379,3.379,0,0,0,4.379,4.378,3.379,3.379,0,0,0,6.192,0,3.379,3.379,0,0,0,4.379-4.378,3.379,3.379,0,0,0,0-6.192,3.379,3.379,0,0,0-4.379-4.378,3.379,3.379,0,0,0-6.192,0Zm.019,1a.439.439,0,0,0,.677-.281,2.475,2.475,0,0,1,4.8,0,.439.439,0,0,0,.677.281,2.475,2.475,0,0,1,3.394,3.394.439.439,0,0,0,.281.677,2.475,2.475,0,0,1,0,4.8.439.439,0,0,0-.281.677,2.475,2.475,0,0,1-3.394,3.394.439.439,0,0,0-.677.28,2.475,2.475,0,0,1-4.8,0,.439.439,0,0,0-.677-.28,2.475,2.475,0,0,1-3.394-3.394.439.439,0,0,0-.281-.677,2.475,2.475,0,0,1,0-4.8.439.439,0,0,0,.281-.677,2.475,2.475,0,0,1,3.394-3.394Z" transform="translate(859.405 524.405)" fill-rule="evenodd"/>
+                          <path id="Path_10841_-_Outline" data-name="Path 10841 - Outline" d="M107.029,27.031a3.884,3.884,0,0,1,3.35,1.911,3.7,3.7,0,0,1,.967-.126,3.9,3.9,0,0,1,3.771,4.865,3.893,3.893,0,0,1,0,6.7,3.9,3.9,0,0,1-3.771,4.865,3.7,3.7,0,0,1-.967-.127,3.893,3.893,0,0,1-6.7,0,3.7,3.7,0,0,1-.967.127,3.9,3.9,0,0,1-3.771-4.865,3.893,3.893,0,0,1,0-6.7,3.9,3.9,0,0,1,3.771-4.865,3.7,3.7,0,0,1,.967.126A3.885,3.885,0,0,1,107.029,27.031Zm2.831,4.1a.938.938,0,0,1-.922-.762,1.977,1.977,0,0,0-3.818,0,.939.939,0,0,1-1.448.6,1.7,1.7,0,0,0-.961-.284,2.033,2.033,0,0,0-1.425.6,1.919,1.919,0,0,0-.314,2.385.939.939,0,0,1-.6,1.449,1.977,1.977,0,0,0,0,3.818.939.939,0,0,1,.6,1.448,1.918,1.918,0,0,0,.313,2.386,2.033,2.033,0,0,0,1.425.6,1.7,1.7,0,0,0,.96-.283.939.939,0,0,1,1.449.6,1.977,1.977,0,0,0,3.818,0,.939.939,0,0,1,1.449-.6,1.7,1.7,0,0,0,.96.283,2.033,2.033,0,0,0,1.425-.6,1.919,1.919,0,0,0,.314-2.385.939.939,0,0,1,.6-1.449,1.977,1.977,0,0,0,0-3.818.939.939,0,0,1-.6-1.448,1.919,1.919,0,0,0-.314-2.386,2.033,2.033,0,0,0-1.425-.6,1.7,1.7,0,0,0-.961.283A.937.937,0,0,1,109.86,31.135Z" transform="translate(859.405 524.405)"/>
+                          <path id="Path_10842" data-name="Path 10842" d="M248.668,177.04a1.63,1.63,0,1,0,1.63,1.63A1.631,1.631,0,0,0,248.668,177.04Zm0,.878a.752.752,0,1,1-.752.752A.752.752,0,0,1,248.668,177.918Z" transform="translate(715.521 380.522)" fill-rule="evenodd"/>
+                          <path id="Path_10843" data-name="Path 10843" d="M367.961,296.33a1.63,1.63,0,1,0,1.63,1.63A1.63,1.63,0,0,0,367.961,296.33Zm0,.878a.752.752,0,1,1-.752.752A.752.752,0,0,1,367.961,297.208Z" transform="translate(600.717 265.72)" fill-rule="evenodd"/>
+                          <path id="Path_10844" data-name="Path 10844" d="M255.086,191.408l6.322-6.322a.439.439,0,1,0-.621-.621l-6.322,6.322a.439.439,0,0,0,.621.621Z" transform="translate(708.497 373.499)" fill-rule="evenodd"/>
+                          <circle id="Ellipse_1" data-name="Ellipse 1" cx="0.915" cy="0.915" r="0.915" transform="translate(967.7 562.701)"/>
+                          <circle id="Ellipse_2" data-name="Ellipse 2" cx="0.915" cy="0.915" r="0.915" transform="translate(963.353 558.355)"/>
+                        </g>
+                      </svg>      </span>                    
+                    <span id="promotion" class="menulist">Promotion</span>
+                    <span class="move3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10.706" height="8.03" viewBox="0 0 10.706 8.03">
+                        <path id="bxs-down-arrow" d="M7.916,15.3a.534.534,0,0,0,.88,0L13.614,8.34a.535.535,0,0,0-.44-.84H3.538a.536.536,0,0,0-.44.84Z" transform="translate(-3.004 -7.5)" fill="#f8932d"/>
+                      </svg></span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- other area -->
+
+        <div class="col-md-10">
+            <div class="d-flex" style="margin-top:48px!important;  margin-right: 30px;">
+            <div class="col-md-4">
+                <span class="navlink"> 
+                    <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 17.948 21.336">
+                        <g id="Group_667" data-name="Group 667" transform="translate(-107 -846)">
+                          <g id="Group_666" data-name="Group 666" transform="translate(110.781 851.401)">
+                            <path id="Path_10837" data-name="Path 10837" d="M355.133,280h-4.745a.379.379,0,0,0-.4.4v4.745a.379.379,0,0,0,.4.4h4.745a.379.379,0,0,0,.4-.4V280.4A.379.379,0,0,0,355.133,280Z" transform="translate(-345.401 -275.565)" fill="#fff"/>
+                            <path id="Path_10838" data-name="Path 10838" d="M214.1,145.8h9.4c.208,0,.364-.1.364-.259V144c0-.161-.139-.259-.364-.259h-9.4c-.208,0-.364.1-.364.259v1.544c0,.161.156.259.364.259Z" transform="translate(-213.735 -143.736)" fill="#fff"/>
+                            <path id="Path_10839" data-name="Path 10839" d="M214,285.541h1.552c.149,0,.261-.152.261-.4V280.4c0-.247-.1-.4-.261-.4H214c-.149,0-.261.152-.261.4v4.745C213.739,285.37,213.851,285.541,214,285.541Z" transform="translate(-213.739 -275.564)" fill="#fff"/>
+                          </g>
+                          <path id="Path_10840" data-name="Path 10840" d="M133.835,46.662H117.411a.839.839,0,0,0-.753.9V67.1a.839.839,0,0,0,.753.9h16.442a.839.839,0,0,0,.753-.9V47.557a.865.865,0,0,0-.771-.9ZM133.1,66.207H118.146V48.431h14.936V66.207Z" transform="translate(-9.658 799.338)" fill="#fff"/>
+                        </g>
+                      </svg>                                  
+                    </span>    
+                <h4>Canteen Management</h4>
+            </div>
+            <div class="col-md-3">
+                    <input class="nosubmit" type="search" placeholder="Search Here...." style="background-color: #ECF5F7;"></div>
+                  <div class="col-md-3">                             
+                  <button class="adduser"  data-toggle="modal" data-target="#Machinelist" >
+                    <span>
+                        <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 17.948 21.336">
+                            <g id="Group_667" data-name="Group 667" transform="translate(-107 -846)">
+                              <g id="Group_666" data-name="Group 666" transform="translate(110.781 851.401)">
+                                <path id="Path_10837" data-name="Path 10837" d="M355.133,280h-4.745a.379.379,0,0,0-.4.4v4.745a.379.379,0,0,0,.4.4h4.745a.379.379,0,0,0,.4-.4V280.4A.379.379,0,0,0,355.133,280Z" transform="translate(-345.401 -275.565)" fill="#fff"/>
+                                <path id="Path_10838" data-name="Path 10838" d="M214.1,145.8h9.4c.208,0,.364-.1.364-.259V144c0-.161-.139-.259-.364-.259h-9.4c-.208,0-.364.1-.364.259v1.544c0,.161.156.259.364.259Z" transform="translate(-213.735 -143.736)" fill="#fff"/>
+                                <path id="Path_10839" data-name="Path 10839" d="M214,285.541h1.552c.149,0,.261-.152.261-.4V280.4c0-.247-.1-.4-.261-.4H214c-.149,0-.261.152-.261.4v4.745C213.739,285.37,213.851,285.541,214,285.541Z" transform="translate(-213.739 -275.564)" fill="#fff"/>
+                              </g>
+                              <path id="Path_10840" data-name="Path 10840" d="M133.835,46.662H117.411a.839.839,0,0,0-.753.9V67.1a.839.839,0,0,0,.753.9h16.442a.839.839,0,0,0,.753-.9V47.557a.865.865,0,0,0-.771-.9ZM133.1,66.207H118.146V48.431h14.936V66.207Z" transform="translate(-9.658 799.338)" fill="#fff"/>
+                            </g>
+                          </svg>                    
+                  </span>Add Canteen</span></button></div>
+
+<!-- Modal -->
+<div class="modal fade" id="Machinelist" tabindex="-1" role="dialog" aria-labelledby="User" aria-hidden="true">
+  <div class="modal-dialog mymodal" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="User">Add Canteen</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="modalform">Canteen Name*</label>
+          <input type="text" class="form-control" id="modalform" placeholder="Canteen name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="modalform">Canteen Location*</label>
+          <input type="text" class="form-control" id="modalform" placeholder="Select Channel">
+        </div>
+      </div>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="modalform">Assign Food Supplier*</label>
+            <input type="text" class="form-control" id="modalform" placeholder="Select Food Supplier">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="modalform">Canteen Admin*</label>
+            <input type="password" class="form-control" id="modalform"  placeholder="Select Food Supplier">
+          </div>
+        </div>
+        <div class="form-row">
+    <div class="form-group col-md-6" style="margin-left: -4px;">
+      <label for="modalform">*Status</label>
+    <br>
+      <input type="radio" id="Active" name="fav_language" value="Active">
+      <label for="Active">Active</label>
+      <input type="radio" id="Inactive" name="fav_language" value="Inactive">
+      <label for="Inactive">Inactive</label></div>
+</div>
+  </div>
+      <div class="modal-footer">
+        <button class="btn1" type="button" data-dismiss="modal">Close</button>
+        <button class="btn2" type="button">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+            <div class="tablewrapper" >
+            <table class="table table-striped">
+                <thead class="thead">
+                    <tr class="tableHead">
+                        <th class="theading"style="border-top-left-radius: 8px !important;">Name</th>
+                        <th>Location</th>
+                        <th>Status</th>
+                        <th style="border-top-right-radius: 8px !important;">Action</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    <tr>
+                        <td>Cuboid Machine</td>
+                        <td>Norwegian Industrial Property Office [NIPO]</td>
+                        <td><button class="btn btn-green">Active</button></td>
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18.637 18.637">
+                                <path id="Icon_material-edit" data-name="Icon material-edit" d="M4.5,19.251v3.882H8.382l11.45-11.45L15.95,7.8ZM22.834,8.681a1.031,1.031,0,0,0,0-1.46L20.411,4.8a1.031,1.031,0,0,0-1.46,0L17.057,6.694l3.882,3.882,1.894-1.894Z" transform="translate(-4.5 -4.496)" fill="#363636"/>
+                              </svg>
+                              <svg id="Icon_ionic-ios-eye" data-name="Icon ionic-ios-eye" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 21.741 13.976">
+                                <path id="Path_10902" data-name="Path 10902" d="M13.111,7.875c-3.9,0-6.978,2.455-10.656,6.469a.767.767,0,0,0,0,1.034c3.149,3.479,5.925,6.473,10.661,6.473,4.678,0,8.186-3.77,10.681-6.5a.761.761,0,0,0,.024-1C21.273,11.262,17.755,7.875,13.111,7.875Zm.214,11.35a4.367,4.367,0,1,1,4.159-4.159A4.369,4.369,0,0,1,13.324,19.225Z" transform="translate(-2.252 -7.875)" fill="#363636"/>
+                                <path id="Path_10903" data-name="Path 10903" d="M16.606,14.325a2.28,2.28,0,0,1,.15-.82c-.049,0-.1,0-.15,0a3.105,3.105,0,1,0,3.106,3.106c0-.063,0-.126,0-.189a2.152,2.152,0,0,1-.883.189A2.253,2.253,0,0,1,16.606,14.325Z" transform="translate(-5.737 -9.618)" fill="#363636"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14.493 18.634">
+                                <path id="Icon_material-delete" data-name="Icon material-delete" d="M8.535,21.064a2.077,2.077,0,0,0,2.07,2.07h8.282a2.077,2.077,0,0,0,2.07-2.07V8.641H8.535ZM21.993,5.535H18.37L17.335,4.5H12.159L11.123,5.535H7.5v2.07H21.993Z" transform="translate(-7.5 -4.5)" fill="#363636"/>
+                              </svg>                                                                                          
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cuboid Machine</td>
+                        <td>Norwegian Industrial Property Office [NIPO]</td>
+                        <td><button class="btn btn-green">Active</button></td>
+                        <!-- <td><i class="fa fa-eye"></i></td> -->
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18.637 18.637">
+                                <path id="Icon_material-edit" data-name="Icon material-edit" d="M4.5,19.251v3.882H8.382l11.45-11.45L15.95,7.8ZM22.834,8.681a1.031,1.031,0,0,0,0-1.46L20.411,4.8a1.031,1.031,0,0,0-1.46,0L17.057,6.694l3.882,3.882,1.894-1.894Z" transform="translate(-4.5 -4.496)" fill="#363636"/>
+                              </svg>
+                              <svg id="Icon_ionic-ios-eye" data-name="Icon ionic-ios-eye" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 21.741 13.976">
+                                <path id="Path_10902" data-name="Path 10902" d="M13.111,7.875c-3.9,0-6.978,2.455-10.656,6.469a.767.767,0,0,0,0,1.034c3.149,3.479,5.925,6.473,10.661,6.473,4.678,0,8.186-3.77,10.681-6.5a.761.761,0,0,0,.024-1C21.273,11.262,17.755,7.875,13.111,7.875Zm.214,11.35a4.367,4.367,0,1,1,4.159-4.159A4.369,4.369,0,0,1,13.324,19.225Z" transform="translate(-2.252 -7.875)" fill="#363636"/>
+                                <path id="Path_10903" data-name="Path 10903" d="M16.606,14.325a2.28,2.28,0,0,1,.15-.82c-.049,0-.1,0-.15,0a3.105,3.105,0,1,0,3.106,3.106c0-.063,0-.126,0-.189a2.152,2.152,0,0,1-.883.189A2.253,2.253,0,0,1,16.606,14.325Z" transform="translate(-5.737 -9.618)" fill="#363636"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14.493 18.634">
+                                <path id="Icon_material-delete" data-name="Icon material-delete" d="M8.535,21.064a2.077,2.077,0,0,0,2.07,2.07h8.282a2.077,2.077,0,0,0,2.07-2.07V8.641H8.535ZM21.993,5.535H18.37L17.335,4.5H12.159L11.123,5.535H7.5v2.07H21.993Z" transform="translate(-7.5 -4.5)" fill="#363636"/>
+                              </svg>     
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>Cuboid Machine</td>
+                        <td>Norwegian Industrial Property Office [NIPO]</td>
+                        <td><button class="btn btn-green">Active</button></td>
+                        <!-- <td><i class="fa fa-eye"></i></td> -->
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18.637 18.637">
+                                <path id="Icon_material-edit" data-name="Icon material-edit" d="M4.5,19.251v3.882H8.382l11.45-11.45L15.95,7.8ZM22.834,8.681a1.031,1.031,0,0,0,0-1.46L20.411,4.8a1.031,1.031,0,0,0-1.46,0L17.057,6.694l3.882,3.882,1.894-1.894Z" transform="translate(-4.5 -4.496)" fill="#363636"/>
+                              </svg>
+                              <svg id="Icon_ionic-ios-eye" data-name="Icon ionic-ios-eye" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 21.741 13.976">
+                                <path id="Path_10902" data-name="Path 10902" d="M13.111,7.875c-3.9,0-6.978,2.455-10.656,6.469a.767.767,0,0,0,0,1.034c3.149,3.479,5.925,6.473,10.661,6.473,4.678,0,8.186-3.77,10.681-6.5a.761.761,0,0,0,.024-1C21.273,11.262,17.755,7.875,13.111,7.875Zm.214,11.35a4.367,4.367,0,1,1,4.159-4.159A4.369,4.369,0,0,1,13.324,19.225Z" transform="translate(-2.252 -7.875)" fill="#363636"/>
+                                <path id="Path_10903" data-name="Path 10903" d="M16.606,14.325a2.28,2.28,0,0,1,.15-.82c-.049,0-.1,0-.15,0a3.105,3.105,0,1,0,3.106,3.106c0-.063,0-.126,0-.189a2.152,2.152,0,0,1-.883.189A2.253,2.253,0,0,1,16.606,14.325Z" transform="translate(-5.737 -9.618)" fill="#363636"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14.493 18.634">
+                                <path id="Icon_material-delete" data-name="Icon material-delete" d="M8.535,21.064a2.077,2.077,0,0,0,2.07,2.07h8.282a2.077,2.077,0,0,0,2.07-2.07V8.641H8.535ZM21.993,5.535H18.37L17.335,4.5H12.159L11.123,5.535H7.5v2.07H21.993Z" transform="translate(-7.5 -4.5)" fill="#363636"/>
+                              </svg>     
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Cuboid Machine</td>
+                        <td>Norwegian Industrial Property Office [NIPO]</td>
+                        <td><button class="btn btn-grey">Deactive</button></td>
+                        <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18.637 18.637">
+                            <path id="Icon_material-edit" data-name="Icon material-edit" d="M4.5,19.251v3.882H8.382l11.45-11.45L15.95,7.8ZM22.834,8.681a1.031,1.031,0,0,0,0-1.46L20.411,4.8a1.031,1.031,0,0,0-1.46,0L17.057,6.694l3.882,3.882,1.894-1.894Z" transform="translate(-4.5 -4.496)" fill="#363636"/>
+                          </svg>
+                          <svg id="Icon_ionic-ios-eye" data-name="Icon ionic-ios-eye" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 21.741 13.976">
+                            <path id="Path_10902" data-name="Path 10902" d="M13.111,7.875c-3.9,0-6.978,2.455-10.656,6.469a.767.767,0,0,0,0,1.034c3.149,3.479,5.925,6.473,10.661,6.473,4.678,0,8.186-3.77,10.681-6.5a.761.761,0,0,0,.024-1C21.273,11.262,17.755,7.875,13.111,7.875Zm.214,11.35a4.367,4.367,0,1,1,4.159-4.159A4.369,4.369,0,0,1,13.324,19.225Z" transform="translate(-2.252 -7.875)" fill="#363636"/>
+                            <path id="Path_10903" data-name="Path 10903" d="M16.606,14.325a2.28,2.28,0,0,1,.15-.82c-.049,0-.1,0-.15,0a3.105,3.105,0,1,0,3.106,3.106c0-.063,0-.126,0-.189a2.152,2.152,0,0,1-.883.189A2.253,2.253,0,0,1,16.606,14.325Z" transform="translate(-5.737 -9.618)" fill="#363636"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14.493 18.634">
+                            <path id="Icon_material-delete" data-name="Icon material-delete" d="M8.535,21.064a2.077,2.077,0,0,0,2.07,2.07h8.282a2.077,2.077,0,0,0,2.07-2.07V8.641H8.535ZM21.993,5.535H18.37L17.335,4.5H12.159L11.123,5.535H7.5v2.07H21.993Z" transform="translate(-7.5 -4.5)" fill="#363636"/>
+                          </svg>     </td>
+                    </tr>
+                    <tr>
+                        <td>Cuboid Machine</td>
+                        <td>Norwegian Industrial Property Office [NIPO]</td>
+                        <td><button class="btn btn-green">Active</button></td>
+                        <!-- <td><i class="fa fa-eye"></i></td> -->
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 18.637 18.637">
+                                <path id="Icon_material-edit" data-name="Icon material-edit" d="M4.5,19.251v3.882H8.382l11.45-11.45L15.95,7.8ZM22.834,8.681a1.031,1.031,0,0,0,0-1.46L20.411,4.8a1.031,1.031,0,0,0-1.46,0L17.057,6.694l3.882,3.882,1.894-1.894Z" transform="translate(-4.5 -4.496)" fill="#363636"/>
+                              </svg>
+                              <svg id="Icon_ionic-ios-eye" data-name="Icon ionic-ios-eye" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 21.741 13.976">
+                                <path id="Path_10902" data-name="Path 10902" d="M13.111,7.875c-3.9,0-6.978,2.455-10.656,6.469a.767.767,0,0,0,0,1.034c3.149,3.479,5.925,6.473,10.661,6.473,4.678,0,8.186-3.77,10.681-6.5a.761.761,0,0,0,.024-1C21.273,11.262,17.755,7.875,13.111,7.875Zm.214,11.35a4.367,4.367,0,1,1,4.159-4.159A4.369,4.369,0,0,1,13.324,19.225Z" transform="translate(-2.252 -7.875)" fill="#363636"/>
+                                <path id="Path_10903" data-name="Path 10903" d="M16.606,14.325a2.28,2.28,0,0,1,.15-.82c-.049,0-.1,0-.15,0a3.105,3.105,0,1,0,3.106,3.106c0-.063,0-.126,0-.189a2.152,2.152,0,0,1-.883.189A2.253,2.253,0,0,1,16.606,14.325Z" transform="translate(-5.737 -9.618)" fill="#363636"/>
+                              </svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14.493 18.634">
+                                <path id="Icon_material-delete" data-name="Icon material-delete" d="M8.535,21.064a2.077,2.077,0,0,0,2.07,2.07h8.282a2.077,2.077,0,0,0,2.07-2.07V8.641H8.535ZM21.993,5.535H18.37L17.335,4.5H12.159L11.123,5.535H7.5v2.07H21.993Z" transform="translate(-7.5 -4.5)" fill="#363636"/>
+                              </svg>     
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="d-flex" style="margin-top:50px;">
+            <div class="pagination-wrapper d-flex">
+                <p>Showing 1-20 of 50 results</p></div>
+                <div class="d-flex" style="margin-left: 614px;">
+                <ul class="pagination">
+                    <li><a href="">&laquo;</a></li>
+                    <li><a  href="">1</a></li>
+                    <li><a class="active"  href="">2</a></li>
+                    <li><a  href="http://3.65.218.99/machineList">3</a></li>
+                    <li><a  href="http://3.65.218.99/categoryList">4</a></li>
+                    <li><a  href="">5</a></li>
+                    <li><a  href="">&raquo;</a></li>
+                </ul>
+            </div>
+            </div></div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
